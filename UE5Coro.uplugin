@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "2.2.2",
+	"VersionName": "2.3-beta",
 	"FriendlyName": "UE5Coro",
 	"Description": "C++20 coroutine implementation for Unreal Engine",
 	"Category": "Programming",
@@ -13,7 +13,7 @@
 	"EnabledByDefault": true,
 	"CanContainContent": false,
 	"CanContainVerse": false,
-	"IsBetaVersion": false,
+	"IsBetaVersion": true,
 	"IsExperimentalVersion": false,
 	"Installed": false,
 	"Modules": [

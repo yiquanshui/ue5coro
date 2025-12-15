@@ -224,6 +224,7 @@ extern thread_local FPromise* GCurrentPromise;
 UE5CORO_API extern UWorldProxy GCurrentCoroWorld;
 inline UWorld* GetBestWorld()
 {
+	check(IsInGameThread()); // TODO remove, temporarily promoting this to a check
 	// Must be called from the game thread, this is guarded by a checkSlow
 	return IsValid(GCurrentCoroWorld) ? GCurrentCoroWorld : GWorld;
 }
